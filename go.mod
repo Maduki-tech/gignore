@@ -2,7 +2,10 @@ module github.com/maduki-tech/gignore
 
 go 1.22.1
 
-require github.com/charmbracelet/bubbletea v0.25.0
+require (
+	github.com/charmbracelet/bubbletea v0.25.0
+	github.com/rosbit/go-wget v1.5.0
+)
 
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
@@ -11,6 +14,7 @@ require (
 	github.com/mattn/go-isatty v0.0.18 // indirect
 	github.com/mattn/go-localereader v0.0.1 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
+	github.com/mroth/weightedrand v0.4.1 // indirect
 	github.com/muesli/ansi v0.0.0-20211018074035-2e021307bc4b // indirect
 	github.com/muesli/cancelreader v0.2.2 // indirect
 	github.com/muesli/reflow v0.3.0 // indirect
